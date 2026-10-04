@@ -1,1 +1,3 @@
 node_modules\nclient/node_modules\nclient/dist\nserver/uploads/*\n.env\n.DS_Store\n
+.env
+node_modules/
