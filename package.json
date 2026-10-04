@@ -1,0 +1,8 @@
+{
+  "name":"collaborative-photo-booth",
+  "version":"1.0.0",
+  "private":true,
+  "scripts":{"dev":"concurrently \"npm run server\" \"npm run client\"","server":"node server/index.js","client":"npm --prefix client run dev","install:all":"npm install && npm --prefix client install"},
+  "dependencies":{"concurrently":"^9.1.2"},
+  "devDependencies":{}
+}
